@@ -16,7 +16,9 @@ var removeNote = title => {
   console.log('Removing note', title);
 };
 
-module.exports.addNote = () => {
-  console.log('addNote');
-  return 'New note';
+module.exports = {
+  addNote,
+  getAll,
+  getNote,
+  removeNote
 };
